@@ -1,5 +1,4 @@
 🍿 usePopcorn
-
 A React-based movie discovery and personal watchlist app powered by the OMDb API. Search for any movie, explore details, rate it with a star system, and keep track of everything you've watched — all saved locally in your browser.
 
 🚀 Features
@@ -35,40 +34,3 @@ Prerequisites
 
 Node.js v16+
 A free OMDb API key → omdbapi.com/apikey.aspx
-
-Installation
-bash# 1. Clone the repo
-git clone https://github.com/your-username/usepopcorn.git
-cd usepopcorn
-
-# 2. Install dependencies
-npm install
-
-# 3. Add your API key in App.js and useMovies.js
-const KEY = "your_api_key_here";
-
-# 4. Start the app
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 📦 Component Tree
-```
-App
-├── NavBar
-│   ├── Logo
-│   ├── Search
-│   └── NumResults
-└── Main
-    ├── Box (Left — Search Results)
-    │   └── MovieList → Movie
-    └── Box (Right — Watchlist / Details)
-        ├── MovieDetails → StarRating
-        ├── WatchedSummary
-        └── WatchedMoviesList → WatchedMovie
-
-🎯 Built With Learning In Mind
-This project demonstrates real-world React patterns including custom hooks, component composition, controlled inputs, derived state, and side effect management with useEffect and useRef.
