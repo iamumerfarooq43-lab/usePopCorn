@@ -61,24 +61,6 @@ src/
 - Node.js v16+
 - A free OMDb API key → [omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx)
 
-### Installation
-```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/usepopcorn.git
-cd usepopcorn
-
-# 2. Install dependencies
-npm install
-
-# 3. Add your API key in App.js and useMovies.js
-const KEY = "your_api_key_here";
-
-# 4. Start the app
-npm start
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ---
 
 ## 📦 Component Tree
