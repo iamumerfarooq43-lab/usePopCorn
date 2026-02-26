@@ -1,4 +1,5 @@
 🍿 usePopcorn
+
 A React-based movie discovery and personal watchlist app powered by the OMDb API. Search for any movie, explore details, rate it with a star system, and keep track of everything you've watched — all saved locally in your browser.
 
 🚀 Features
